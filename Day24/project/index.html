@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&family=Roboto+Condensed:wght@300&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div id="container">
+        <header>
+            <h1 class="title">Calculate a weight of an object on a planet</h1>
+            <div class="search">
+                <p class="error-message"></p>
+                <input class="input" type="text" placeholder="Mass in Kilogram"></input>
+                <select  class="planets">
+                    <option selected>---select planet---</option>
+                    <option value="mercury">MERCURY</option>
+                    <option value="venus">VENUS</option>
+                    <option value="earth">EARTH</option>
+                    <option value="moon">MOON</option>
+                    <option value="mars">MARS</option>
+                    <option value="jupiter">JUPITER</option>
+                    <option value="saturn">SATURN</option>
+                    <option value="uranus">URANUS</option>
+                    <option value="neptune">NEPTUNE</option>
+                    <option value="pluto">PLUTO</option>
+                </select>
+                <button class="calculate">Calculate Weight</button>
+            </div>
+        </header>
+        <section id="content" class="content"></section>
+
+    </div>  
+    <script src="./main.js"></script>
+</body>
+</html>
