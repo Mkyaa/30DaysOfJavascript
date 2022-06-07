@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="css/icomoon.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&family=Poppins:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <h1 class="title">Validating Web Form</h1>
+        <form action="">
+            <label for="">First Name</label>
+            <div class="input-container" id="firstname-container">
+                <input type="text" name="firstname" id="firstname"><span id="firstname-info" class="icon-info"></span>
+                <!-- <span class="info-panel"></span> -->
+            </div>
+            <label for="">Last Name</label>
+            <div class="input-container">
+                <input type="text" name="lastname" id="lastname"><span class="icon-info"></span>
+            </div>
+            <label for="">Email</label>
+            <div class="input-container">
+                <input type="text" name="email" id="email"><span class="icon-info"></span>
+            </div>
+            <label for="">Password</label>
+            <div class="input-container">
+                <input type="password" name="password" id="password"><span class="icon-info"></span>
+            </div>
+            <label for="">Confirm Password</label>  
+            <div class="input-container">
+                <input type="password" name="confirm_password" id="confirm-password"><span class="icon-info"></span>
+            </div>
+            <label for="" >Telephone</label>
+            <div class="input-container">
+                <input type="number" name="phone" id="phone"><span class="icon-info"></span>
+            </div>
+            <label for="">Your Bio</label>
+            <div class="input-container">
+                <textarea name="bio" id="bio-area" cols="30" rows="10"></textarea><span class="icon-info"></span>
+            </div>
+            <button type="submit" value="Submit" id="submit-btn">Submit</button>
+        </form>
+    </div>
+    
+    <script src="main.js"></script>
+</body>
+</html>

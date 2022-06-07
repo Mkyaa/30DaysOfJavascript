@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&family=Poppins:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <div class="container">
+        <section class="header">
+            <div class="top-header">
+                <h1 class="title">World Countries Data</h1>
+                <span class="total-countries-exp">Currently, we have 250 countries</span>
+            </div>
+            <div class="search-box">
+                <input type="text" class="search-input" placeholder="Search countries by name, city and languages">
+                <div class="btn-cont">
+                    <button id="sort-name" class="sort-btn">NAME</button>
+                    <button id="sort-capital" class="sort-btn">CAPITAL</button>
+                    <button id="sort-population" class="sort-btn">POPULATION</button>
+                    <a class="go-grap-btn" href="#graph-content"></a>
+                </div>
+        </section>
+        <section class="content">
+            <div class="country-cont"></div>
+            <div id="graph-content" class="graph-cont">
+                <div class="button-content">
+                    <button id="population" class="filter-btn">POPULATION</button>
+                    <button id="languages" class="filter-btn">LANGUAGES</button>
+                    <span class="section-exp">10 Most populated countries in the world</span>
+                </div>
+                <div class="datalist"></div>
+            </div>
+        </section>
+    </div>
+    <script src="main.js"></script>
+</body>
+
+</html>

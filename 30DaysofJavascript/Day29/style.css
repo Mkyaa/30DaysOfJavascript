@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background-color: aqua;
+    font-size: 152px;
+    transition: all 0.5s;
+    justify-content: center;
+}
+.challenge{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+}
+.name{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: flex-start;
+}
+.word-class{
+    display: flex;
+    margin: 30px;
+}
+.letter{
+    margin:0 15px;
+    transition: all 0.5s ease-in-out;
+}
