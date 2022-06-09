@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    background: #f2f2f2;
+}
+.container{
+    max-width:900px;
+    margin: 0 auto;
+    padding: 40px 20px;
+}
+.container h1{
+    font-size: 32px;
+    font-weight: 500;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.add-item{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 0;
+}
+.textbox{
+    width: 175px;
+    height: 50px;
+    border: 1px solid #e5c9c5;
+    padding-left: 10px;
+    font-size: 18px;
+}
+.textbox::placeholder{
+    color: #ccc;
+}
+.add-item button{
+    width: 125px;
+    height: 50px;
+    border: 1px solid #e5c9c5;
+    background: #e5c9c5;
+    color: #fff;
+    font-size: 18px;
+    cursor: pointer;
+}
+.content{
+    display: flex;
+    align-items: center;
+    margin: 20px 0;
+    display: flex;
+    flex-direction: column;
+}
+.card{
+    width:100%;
+    height: 75px;
+    background-color: #e5c9c5;
+    display: flex;
+    align-items: center;
+    color: #4b4747;
+    font-weight: 500;
+    letter-spacing: 2px;
+    font-size: 15px;
+    margin-bottom: 20px;
+}
+.name-time{
+    width: 25%;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 10px;
+}
+.name-time .time{
+    font-size: 13px;
+    color: rgba(75,71,71, 0.6);
+    margin-top: 5px;
+    letter-spacing: normal;
+}
+.country{
+    width: 25%;
+    padding-left: 10px;
+}
+.score{
+    width: 25%;
+    padding-left: 10px;
+}
+.card-interactions{
+    width: 25%;
+    display: flex;
+}
+.card-interactions .delete-card{
+    background-image: url(./images/delete.svg);
+    background-size: 25px 25px;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.card-interactions .delete-card:hover{
+    background-image:url(./images/delete-hover.png);
+}
+.edit-button{
+    width: 50px;
+    height: 50px;
+    background-color: #fff;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 10px;
+    font-size: 12px;
+    letter-spacing: normal;
+}
